@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="A simpler banking experience for a simpler life."
+    />
+    <!-- ICONS -->
+    <link rel="shortcut icon" href="./assets/logos/favicon.ico" />
+    <link rel="apple-touch-icon" href="./assets/logos/apple-touch-icon.png" />
+    <link rel="manifest" href="./static/manifest.webmanifest" />
+    <!-- TYPOGRAPHY -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./static/css/styles.css" />
+    <!-- SCRIPTS -->
+    <script defer src="./static/js/script.js"></script>
+    <title>Resume &mdash; Shortlisting</title>
+  </head>
+  <body>
+    <header class="header">
+      <a href="#">
+        <span class="header__logo">Resume</span>
+      </a>
+      <!-- NAVIGATION -->
+      <nav class="navigation">
+        <ul class="navigation__list">
+          <li class="navigation__item">
+            <a href="#section-features" class="navigation__link">Home</a>
+          </li>
+          <li class="navigation__item">
+            <a href="./templates/index1.html" class="navigation__link">Developer</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#section-testimonial" class="navigation__link"
+              >About Us</a
+            >
+          </li>
+          <li class="navigation__item">
+            <a href="#" class="navigation__btn btn--open-modal">Register</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- MOBILE MENU BUTTON -->
+      <button class="header__menu-btn">
+        <span class="header__menu-line"></span>
+      </button>
+    </header>
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HERO SECTION -->
+      <section class="section-hero">
+        <div class="hero">
+          <div class="hero__img-box">
+            <img
+              src="./static/images/image2.jpeg"
+              alt="Cards"
+              class="hero__img"
+            />
+          </div>
+          <div class="hero__textbox">
+            <h1 class="heading-primary mb-sm">
+              Explore our advanced resume<span> tools</span>
+            </h1>
+            <p class="hero__description mb-md">
+              Revolutionizing resume shortlisting: Smart, efficient, and precise. Your gateway to hiring excellence. Welcome to the future of recruitment.
+            </p>
+            <button class="btn btn--md btn--outline btn--scroll-to">
+              Learn more
+              <svg class="btn__icon">
+                <use
+                  xlink:href="./static/icons/sprite.svg#icon-chevron-thin-right"
+                ></use>
+              </svg>
+            </button>
+            <a href="#" class="btn btn--normal">Contact us</a>
+          </div>
+        </div>
+      </section>
+      <!-- FEATURES SECTION -->
+      <section class="section section--bg" id="section-features">
+        <div class="container">
+          <span class="subheading mb-xs">Features</span>
+          <h2 class="heading-secondary mb-xl">
+            Explore our array of resume shortlisting services and features.
+          </h2>
+        </div>
+        <div class="container">
+          <div class="feature">
+            <!-- FIRST COLUMN -->
+            <div class="feature__text-box">
+              <div class="feature__header mb-sm">
+                <div class="feature__icon">
+                  <svg>
+                    <use xlink:href="./static/icons/sprite.svg#icon-tv"></use>
+                  </svg>
+                </div>
+                <div class="feature__title">Fully automated resume screening</div>
+              </div>
+              <div class="feature__body mb-lg">
+                <p class="feature__description mb-sm">
+                  Sample text illustrating data analysis and processing. Explore patterns, insights, and trends within datasets for informed decision-making.
+                </p>
+                <ul class="list ml-md">
+                  <li class="list__item">
+                    <svg class="list__icon">
+                      <use
+                        xlink:href="./static/icons/sprite.svg#icon-check"
+                      ></use>
+                    </svg>
+                    <span class="list__text">Place qualified candidates into your talent pool</span>
+                  </li>
+                  <li class="list__item">
+                    <svg class="list__icon">
+                      <use
+                        xlink:href="./static/icons/sprite.svg#icon-check"
+                      ></use>
+                    </svg>
+                    <span class="list__text"
+                      >We'll assist in distributing resources strategically</span
+                    >
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn--normal">
+                Learn more
+                <svg class="btn__icon">
+                  <use
+                    xlink:href="./static/icons/sprite.svg#icon-chevron-thin-right"
+                  ></use>
+                </svg>
+              </a>
+            </div>
+            <div class="feature__img-box">
+              <img
+                src="./static/images/digital-lazy.jpg"
+                data-src="./static/images/digital.jpg"
+                alt="Digital"
+                class="feature__img feature__lazy-img"
+              />
+            </div>
+            <div class="feature__img-box">
+              <img
+                src="./static/images/grow-lazy.jpg"
+                data-src="./static/images/grow.jpg"
+                alt="Digital"
+                class="feature__img feature__lazy-img"
+              />
+            </div>
+            <div class="feature__text-box">
+              <div class="feature__header mb-sm">
+                <div class="feature__icon">
+                  <svg>
+                    <use
+                      xlink:href="./static/icons/sprite.svg#icon-area-graph"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="feature__title">Observe your talent pool flourish</div>
+              </div>
+              <div class="feature__body mb-lg">
+                <p class="feature__description mb-sm">
+                  Sift resumes efficiently for top talent. Our streamlined process ensures you find the perfect candidate for your team
+                </p>
+              </div>
+              <a href="#" class="btn btn--normal">
+                Learn more
+                <svg class="btn__icon">
+                  <use
+                    xlink:href="./static/icons/sprite.svg#icon-chevron-thin-right"
+                  ></use>
+                </svg>
+              </a>
+            </div>
+            <div class="feature__text-box">
+              <div class="feature__header mb-sm">
+                <div class="feature__icon">
+                  <svg>
+                    <use
+                      xlink:href="./static/icons/sprite.svg#icon-credit-card"
+                    ></use>
+                  </svg>
+                </div>
+                <div class="feature__title">Includes complimentary resume screening</div>
+              </div>
+              <div class="feature__body mb-lg">
+                <p class="feature__description mb-sm">
+                  Receive a free resume screening as part of our comprehensive recruitment services. Streamline your hiring process effortlessly
+                </p>
+                <ul class="list ml-md">
+                  <li class="list__item">
+                    <svg class="list__icon">
+                      <use
+                        xlink:href="./static/icons/sprite.svg#icon-check"
+                      ></use>
+                    </svg>
+                    <span class="list__text">100% secured</span>
+                  </li>
+                  <li class="list__item">
+                    <svg class="list__icon">
+                      <use
+                        xlink:href="./static/icons/sprite.svg#icon-check"
+                      ></use>
+                    </svg>
+                    <span class="list__text">No interest charges</span>
+                  </li>
+                  <li class="list__item">
+                    <svg class="list__icon">
+                      <use
+                        xlink:href="./static/icons/sprite.svg#icon-check"
+                      ></use>
+                    </svg>
+                    <span class="list__text">Recruitment and Talent Acquisition Benefits</span>
+                  </li>
+                </ul>
+              </div>
+              <a href="#" class="btn btn--normal">
+                Learn more
+                <svg class="btn__icon">
+                  <use
+                    xlink:href="./static/icons/sprite.svg#icon-chevron-thin-right"
+                  ></use>
+                </svg>
+              </a>
+            </div>
+            <div class="feature__img-box">
+              <img
+                src="./static/images/card-lazy.jpg"
+                data-src="./static/images/card.jpg"
+                alt="Digital"
+                class="feature__img feature__lazy-img"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- OPERATIONS SECTION -->
+      <section class="section" id="section-operations">
+        <div class="container">
+          <span class="subheading mb-xs">Operations</span>
+          <h2 class="heading-secondary mb-xl">
+            Everything as simple as possible, but no simpler.
+          </h2>
+        </div>
+        <div class="container">
+          <div class="operations">
+            <aside class="operations__img-container">
+              <figure class="operations__img-box">
+                <img
+                  src="./static/images/transfer.jpg"
+                  alt="Transfer money"
+                  class="operations__img operations__img--1 operations__img--active"
+                />
+              </figure>
+              <figure class="operations__img-box">
+                <img
+                  src="./static/images/loan.jpg"
+                  alt="Transfer money"
+                  class="operations__img operations__img--2"
+                />
+              </figure>
+              <figure class="operations__img-box">
+                <img
+                  src="./static/images/close-account.jpg"
+                  alt="Transfer money"
+                  class="operations__img operations__img--3"
+                />
+              </figure>
+            </aside>
+            <aside class="operations__list-container">
+              <div class="operations__accordion">
+                <h3
+                  class="operations__heading operations__heading--active"
+                  data-accordion="1"
+                >
+                  01 Match Resumes
+                </h3>
+                <div
+                  class="operations__content operations__content--1 operations__content--active"
+                >
+                  <p class="operations__subheading">
+                    Match resumes instantly, hassle-free, and without any additional charges!
+                  </p>
+                  <p class="operations__description">
+                    Experience seamless resume matching with our instant, hassle-free service. We ensure a smooth process without any additional charges. Find the perfect candidate swiftly and efficiently, without the burden of extra fees. Welcome to effortless recruitment
+                  </p>
+                  <figure class="operations__inner-photo">
+                    <img
+                      src="./static/images/transfer.jpg"
+                      alt="Transfer money"
+                      class="operations__photo"
+                    />
+                  </figure>
+                </div>
+              </div>
+              <div class="operations__accordion">
+                <h3 class="operations__heading" data-accordion="2">
+                  02 Smart screening
+                </h3>
+                <div class="operations__content operations__content--2">
+                  <p class="operations__subheading">
+                    Realize hiring dreams instantly with our screening
+                  </p>
+                  <p class="operations__description">
+                    Instantly screen resumes without any hidden costs. Our efficient service ensures quick and accurate matching, empowering you to find the right candidate effortlessly
+                  </p>
+                  <figure class="operations__inner-photo">
+                    <img
+                      src="./static/images/loan.jpg"
+                      alt="Transfer money"
+                      class="operations__photo"
+                    />
+                  </figure>
+                </div>
+              </div>
+              <div class="operations__accordion">
+                <h3 class="operations__heading" data-accordion="3">
+                  03 Instant Shortlisting
+                </h3>
+                <div class="operations__content operations__content--3">
+                  <p class="operations__subheading">
+                    Ready to end your search? 
+                  </p>
+                  <p class="operations__description">
+                    Ready to conclude your recruitment process? With our instant closure feature, swiftly end your search for the perfect candidate. Streamline your hiring journey and effortlessly close your account when you've found the right fit for your team.
+                  </p>
+                  <figure class="operations__inner-photo">
+                    <img
+                      src="./static/images/close-account.jpg"
+                      alt="Transfer money"
+                      class="operations__photo"
+                    />
+                  </figure>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </div>
+      </section>
+      <!-- TESTIMONIAL SECTION -->
+      <section class="section section--bg" id="section-testimonial">
+        <div class="container">
+          <span class="subheading mb-xs">Not sure yet?</span>
+          <h2 class="heading-secondary mb-lg">
+            Join countless users simplifying recruitment with our platform
+          </h2>
+        </div>
+        <div class="container">
+          <div class="slider">
+            <div class="slide">
+              <div class="testimonial">
+                <div class="testimonial__img">
+                  <img
+                    src="./static/images/user-1.jpg"
+                    alt="Aarav Lynn"
+                    class="testimonial__photo"
+                  />
+                </div>
+                <div class="testimonial__info">
+                  <div class="testimonial__heading mb-sm">
+                    Best hiring decision you'll ever make!
+                  </div>
+                  <blockquote class="testimonial__text mb-lg">
+                    Making the right hiring decision can transform your business. With our platform, you'll discover top talent that aligns perfectly with your company culture and goals. It's not just a good decision – it's the best one you'll ever make for your organization's success
+                  </blockquote>
+                  <address class="testimonial__author">
+                    <img
+                      src="./static/images/user-small-1.jpg"
+                      alt="Aarav Lynn"
+                      class="testimonial__photo-small"
+                    />
+                    <p class="testimonial__name">Aarav Lynn</p>
+                    <p class="testimonial__location">
+                      San Francisco, California, USA
+                    </p>
+                  </address>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="testimonial">
+                <div class="testimonial__img">
+                  <img
+                    src="./static/images/user-2.jpg"
+                    alt="Francisco Gomes"
+                    class="testimonial__photo"
+                  />
+                </div>
+                <div class="testimonial__info">
+                  <div class="testimonial__heading mb-sm">
+                    The final step towards achieving streamlined recruitment
+                  </div>
+                  <blockquote class="testimonial__text mb-lg">
+                    Embrace a minimalist approach to hiring by utilizing our streamlined recruitment platform. With our efficient tools and processes, you'll simplify your hiring journey, ensuring that you find the perfect candidate for your team with ease
+                  </blockquote>
+                  <address class="testimonial__author">
+                    <img
+                      src="./static/images/user-small-2.jpg"
+                      alt="Aarav Lynn"
+                      class="testimonial__photo-small"
+                    />
+                    <p class="testimonial__name">Francisco Gomes</p>
+                    <p class="testimonial__location">Manila, Philippines</p>
+                  </address>
+                </div>
+              </div>
+            </div>
+            <div class="slide">
+              <div class="testimonial">
+                <div class="testimonial__img">
+                  <img
+                    src="./static/images/user-3.jpg"
+                    alt="Miyah Miles"
+                    class="testimonial__photo"
+                  />
+                </div>
+                <div class="testimonial__info">
+                  <div class="testimonial__heading mb-sm">
+                    Finally free from old-recruting techniques
+                  </div>
+                  <blockquote class="testimonial__text mb-lg">
+                    Finally liberated from outdated recruiting methodologies, we can now embrace innovative approaches. No longer bound by conventional tactics, we're empowered to explore fresh avenues for talent acquisition. Emancipated from the constraints of tradition, we embark on a journey of progressive recruitment strategies.
+                  </blockquote>
+                  <address class="testimonial__author">
+                    <img
+                      src="./static/images/user-small-3.jpg"
+                      alt="Aarav Lynn"
+                      class="testimonial__photo-small"
+                    />
+                    <p class="testimonial__name">Miyah Miles</p>
+                    <p class="testimonial__location">Lisbon, Portugal</p>
+                  </address>
+                </div>
+              </div>
+            </div>
+            <div class="slider__controls">
+              <button
+                class="slider__btn slider__btn--left"
+                aria-label="previous"
+              >
+                <svg class="slider__icon">
+                  <use
+                    xlink:href="./static/icons/sprite.svg#icon-chevron-thin-left"
+                  ></use>
+                </svg>
+              </button>
+              <button class="slider__btn slider__btn--right" aria-label="next">
+                <svg class="slider__icon">
+                  <use
+                    xlink:href="./static/icons/sprite.svg#icon-chevron-thin-right"
+                  ></use>
+                </svg>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- CONTACT SECTION -->
+      <section class="section-signup" id="section-contact">
+        <div class="container-sm">
+          <span class="subheading mb-xs">Get in touch</span>
+          <h2 class="heading-secondary mb-lg">
+            The ideal moment to start optimizing your hiring process with us was yesterday. The next best time is right now! Begin transforming your recruitment journey today for a brighter tomorrow
+          </h2>
+          <button class="btn btn--primary btn--lg btn--open-modal">
+            Register to avail resume shortlisting tool
+          </button>
+        </div>
+      </section>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer__wrapper">
+          <div class="footer__brand">
+            <a href="#">
+              <h2 class="footer__logo mb-sm">Resume</h2>
+            </a>
+            <p class="footer__description mb-md">
+              Empower your hiring process with our innovative recruitment solutions. Find top talent effortlessly and streamline your recruitment journey with ease. Join us today!
+            </p>
+            <ul class="footer__social">
+              <li>
+                <a href="#" class="footer__social-item" aria-label="Facebook">
+                  <svg class="footer__social-icon">
+                    <use
+                      xlink:href="./static/icons/sprite.svg#icon-facebook"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer__social-item" aria-label="Instagram">
+                  <svg class="footer__social-icon">
+                    <use
+                      xlink:href="./static/icons/sprite.svg#icon-instagram"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+              <li>
+                <a href="#" class="footer__social-item" aria-label="Twitter">
+                  <svg class="footer__social-icon">
+                    <use
+                      xlink:href="./static/icons/sprite.svg#icon-twitter"
+                    ></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <p class="footer__header mb-md">Home</p>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Register</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Login</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">About</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Help</a>
+              </li>
+            </ul>
+          </div>
+          <div class="footer__column">
+            <p class="footer__header mb-md">Resume Templates</p>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Ideal Resume</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Good Resume</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Not-good Resume</a>
+              </li>
+            </ul> 
+          </div>
+          <div class="footer__column">
+            <p class="footer__header mb-md">ScreenIn</p>
+            <ul class="footer__list">
+              <li class="footer__item">
+                <a href="#" class="footer__link">Resume Match</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Resume Review</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Resume Assessment</a>
+              </li>
+              <li class="footer__item">
+                <a href="#" class="footer__link">Talent Pool/a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer__bottom">
+          <p class="footer__copyright">
+            Built by Team Arjun
+            <span class="footer__year">2024</span> All Rights Reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- MODAL -->
+    <div class="modal hidden">
+      <div class="modal__header">
+        <div class="modal__heading">
+          <h2 class="modal__title mb-xs">Register</h2>
+          <p class="modal__subheading">
+            Please register here and make use of ScreenIn website for smooth resume shortlisting
+          </p>
+        </div>
+        <button class="modal__close-btn btn--close-modal">
+          <svg class="modal__close-icon">
+            <use xlink:href="./static/icons/sprite.svg#icon-x"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="modal__body">
+        <form class="modal__form">
+          <div class="input__group">
+            <label for="firstName" class="input__label">First Name</label>
+            <input
+              type="text"
+              name="firstName"
+              id="firstName"
+              class="input__form"
+              placeholder="Jan Kenneth"
+              required
+            />
+          </div>
+          <div class="input__group">
+            <label for="lastName" class="input__label">Last Name</label>
+            <input
+              type="text"
+              name="lastName"
+              id="lastName"
+              class="input__form"
+              placeholder="Sajo"
+              required
+            />
+          </div>
+          <div class="input__group">
+            <label for="email" class="input__label">Email</label>
+            <input
+              type="email"
+              name="email"
+              id="email"
+              class="input__form"
+              placeholder="jankennethsajo@gmail.com"
+              required
+            />
+          </div>
+        </form>
+      </div>
+      <div class="modal__footer">
+        <button class="btn btn--normal btn--close-modal">Cancel</button>
+        <button class="btn btn--primary btn--sm">
+          Next step
+          <svg class="btn__icon">
+            <use
+              xlink:href="./static/icons/sprite.svg#icon-chevron-thin-right"
+            ></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+    <div class="overlay hidden"></div>
+  </body>
+</html>

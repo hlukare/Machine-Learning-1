@@ -1,0 +1,59 @@
+@mixin absCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@mixin gradient($direction, $colorOne, $colorTwo) {
+  background-image: linear-gradient($direction, $colorOne, $colorTwo);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+//MEDIA QUERY MANAGER
+//1800px - 112.5em
+//1200px - 75em
+//900px - 56.25em
+//800px - 50em
+//600px - 37.5em
+//420px - 26.25em
+
+@mixin responsive($breakpoint) {
+  @if $breakpoint == big-desktop {
+    @media only screen and (min-width: 112.5em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == tab-landscape {
+    @media only screen and (max-width: 75em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == tab-portrait {
+    @media only screen and (max-width: 56.25em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == tab-small {
+    @media only screen and (max-width: 50em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == phone {
+    @media only screen and (max-width: 37.5em) {
+      @content;
+    }
+  }
+
+  @if $breakpoint == phone-xs {
+    @media only screen and (max-width: 26.25em) {
+      @content;
+    }
+  }
+}

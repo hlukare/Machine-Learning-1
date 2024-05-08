@@ -1,0 +1,14 @@
+Job Description:
+Summary
+Advanced data pipeline development with components of the Hadoop stack like Apache Spark, Apache Livy, Apache Hive, Apache Kafka etc.
+Strong programming language skills using Java or Scala.
+Experience in using polyglot storages including RDBMS, NoSQL stores (HBase, Cassandra, Druid), data serialization formats like Parquet, ORC etc.
+Familiarity with server side web application development 
+Familiarity with metadata management, data security and governance domain
+Recognized contributions to open-source projects
+Experience:
+8+ years of relevant hands-on software engineering experience doing design and development, including deployments to production environments.
+2+ years of relevant hands-on experience leading teams to deliver production quality components in a product.
+Education:
+A MS/BE/ Btech degree in computer science or equivalent experience in industry
+

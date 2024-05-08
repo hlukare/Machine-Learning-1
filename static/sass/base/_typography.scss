@@ -1,0 +1,57 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  line-height: 1;
+  color: #444;
+}
+
+.heading-primary {
+  font-size: 6.2rem;
+  font-weight: 700;
+  line-height: 1.1;
+  animation: moveInLeft 1.5s ease-in-out;
+
+  @include responsive(tab-portrait) {
+    font-size: 5.2rem;
+  }
+
+  @include responsive(phone-xs) {
+    font-size: 4.4rem;
+  }
+
+  span {
+    @include gradient(
+      to right bottom,
+      var(--color-primary-light),
+      var(--color-primary-dark)
+    );
+  }
+}
+
+.heading-secondary {
+  font-size: 3.6rem;
+  font-weight: 800;
+  line-height: 1.4;
+  letter-spacing: 0.5px;
+
+  @include responsive(tab-small) {
+    font-size: 3rem;
+  }
+
+  @include responsive(phone) {
+    font-size: 2.8rem;
+  }
+}
+
+.subheading {
+  display: inline-block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+  @include gradient(
+    to right bottom,
+    var(--color-primary),
+    var(--color-primary-light)
+  );
+}

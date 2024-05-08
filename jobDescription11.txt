@@ -1,0 +1,26 @@
+Job Description: Data Scientist/Analytics
+
+Shortlisting Criteria:
+Minimum SGPA of 8.0 or equivalent GPA.
+Educational background in B.Tech and M.Tech in Computer Science, Statistics, Mathematics, or related field.
+Position: Data Scientist/Analytics
+
+Responsibilities:
+Utilize advanced analytics techniques to extract insights from large datasets.
+Develop predictive models and algorithms to optimize business processes and decision-making.
+Design and implement data-driven solutions to address complex business challenges.
+Communicate findings and recommendations to stakeholders through reports and presentations.
+
+Qualifications:
+Bachelor's and/or Master's degree in Computer Science, Statistics, Mathematics, or related field.
+Strong proficiency in programming languages such as Python, R, or Java.
+Experience with data analysis and visualization tools such as SQL, Tableau, or Power BI.
+
+Preferred Qualifications:
+Experience with machine learning algorithms and techniques.
+Familiarity with big data platforms such as Hadoop, Spark, or Kafka.
+Previous experience in a data science or analytics role.
+Relevant certifications in data science or related fields.
+
+Application Process:
+[Outline the steps candidates should follow to apply for the position, including how to submit their resume and any other required documents.]

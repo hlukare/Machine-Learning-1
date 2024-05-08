@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/InserResume.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+  <header class="header">
+    <a href="#">
+      <span class="header_logo">ScreenIn</span>
+    </a>
+
+  <div class="container">
+    <form id="uploadForm" action="upload.php" method="post" enctype="multipart/form-data">
+      <h2 class="heading-secondary t-center mb-sm" style="background-color: aliceblue;">UPLOAD YOUR <span style="color: var(--color-primary-dark);">CV</span></h2>
+      <label for="fuResume" class="subheading input__label">  </label>
+      <input type="file" name="fuResume[]" id="fuResume" class="input__form file-upload" multiple>
+      <div id="preview"></div>
+      <input type="submit" value="Upload Files "  class="btn">
+      
+    </form>
+  </div>
+
+  <script src="upload.js"></script> <!-- Link to your JavaScript file -->
+  <!-- Add this to your HTML file -->
+<ul id="file-list"></ul>
+
+</body>
+</html>

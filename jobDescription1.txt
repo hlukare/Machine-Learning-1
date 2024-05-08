@@ -1,0 +1,12 @@
+Job Description:
+Summary 
+Advanced full stack capabilities for developing web applications with expertise in front end engineering technologies and frameworks including Javascript, Typescript, NodeJS, Angular or similar web frameworks, CSS, HTML
+Strong programming language skills using Java or Scala.
+Familiarity with server side web application development 
+Familiarity with metadata management, data security and governance domain
+Recognized contributions to open-source projects
+Experience
+4+ years of relevant hands-on software engineering experience doing design and development, including deployments to production environments.
+2+ years of relevant hands-on experience leading teams to deliver production quality components in a product.
+Education
+A MS/BE/ Btech degree in computer science or equivalent experience in industry
